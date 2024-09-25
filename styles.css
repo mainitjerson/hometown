@@ -1,0 +1,97 @@
+/* CSS HEX 
+--lion: #b79764ff;
+--bistre: #322010ff;
+--deep-sky-blue: #1cb7f3ff;
+--maya-blue: #65c2f4ff;
+--picton-blue: #00a8f2ff;
+--peach: #ffe3b1ff;
+--kobicha: #65471fff;
+--celestial-blue: #0597daff;
+--buff: #d79d67ff;
+--coyote: #735f42ff;
+*/
+body {
+    margin: 0;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+    background-color: #322010;
+}
+
+img {
+    width: 100px;
+}
+#hero{
+    background-image: url("images/barasoain-church.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center; 
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+h1, h2{
+    color: #fff;
+    background-color: #d79d67;
+}
+#activities{
+    width: 100%;
+}
+.heading{
+    color: #fff;
+}
+.card
+{
+    background-color: #d79d67;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+}
+.container{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+.round
+{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    color: #fff;
+}
+#guide{
+    background-color: #322010;
+    padding: 20px;
+}
+.profile-card{
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    text-align: center;
+    flex-direction: row-reverse;
+    background: #5da4c5;
+    color: #fff;
+    border-radius: 10px;
+}
+.profile-desc{
+    padding: 10px;
+}
+.avatar{
+    width: 175px;
+    height: 250px;
+    border-radius: 5px;
+}
+.full-image:hover{
+    transition: transform 0.3s ease; /* Smooth transition for scaling */
+    transform: scale(3); 
+    border-radius: 0;
+}
+@media only screen and (max-width: 800px) {
+    .container{
+        display:block;
+    }
+}
